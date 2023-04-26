@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="115" viewBox="0 0 115 115">
+  <g id="Centro" transform="translate(-161 -112.373)">
+    <circle id="ElipceRojo" cx="57.5" cy="57.5" r="57.5" transform="translate(161 112.373)" fill="#d81d3a"/>
+    <ellipse id="ElipseAmarillo" cx="45.5" cy="47.5" rx="45.5" ry="47.5" transform="translate(173 122.373)" fill="#f6d62f"/>
+  </g>
+</svg>

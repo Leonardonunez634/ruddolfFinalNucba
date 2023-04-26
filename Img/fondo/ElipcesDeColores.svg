@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1500" viewBox="0 0 1500 1500">
+  <g id="ElipcesDeColores" transform="translate(554 549)">
+    <circle id="Elipse_26" data-name="Elipse 26" cx="750" cy="750" r="750" transform="translate(-554 -549)" fill="#f48ca4"/>
+    <circle id="Elipse_25" data-name="Elipse 25" cx="653" cy="653" r="653" transform="translate(-457 -452)" fill="#f1666d"/>
+    <circle id="Elipse_24" data-name="Elipse 24" cx="590" cy="590" r="590" transform="translate(-394 -389)" fill="#f48ca4"/>
+    <ellipse id="Elipse_23" data-name="Elipse 23" cx="525" cy="524.5" rx="525" ry="524.5" transform="translate(-329 -329)" fill="#f1666d"/>
+    <ellipse id="Elipse_22" data-name="Elipse 22" cx="472" cy="472.5" rx="472" ry="472.5" transform="translate(-276 -277)" fill="#f48ca4"/>
+    <ellipse id="Elipse_21" data-name="Elipse 21" cx="417" cy="417.5" rx="417" ry="417.5" transform="translate(-221 -222)" fill="#f1666d"/>
+    <ellipse id="Elipse_20" data-name="Elipse 20" cx="359" cy="359.5" rx="359" ry="359.5" transform="translate(-163 -164)" fill="#f48ca4"/>
+    <circle id="Elipse_19" data-name="Elipse 19" cx="320" cy="320" r="320" transform="translate(-124 -119)" fill="#f1666d"/>
+    <circle id="Elipse_18" data-name="Elipse 18" cx="289" cy="289" r="289" transform="translate(-93 -88)" fill="#f48ca4"/>
+    <circle id="Elipse_17" data-name="Elipse 17" cx="257" cy="257" r="257" transform="translate(-61 -59)" fill="#f1666d"/>
+    <ellipse id="Elipse_16" data-name="Elipse 16" cx="231" cy="230.5" rx="231" ry="230.5" transform="translate(-35 -32)" fill="#f48ca4"/>
+    <ellipse id="Elipse_15" data-name="Elipse 15" cx="204" cy="204.5" rx="204" ry="204.5" transform="translate(-8 -6)" fill="#f1666d"/>
+    <ellipse id="Elipse_14" data-name="Elipse 14" cx="175" cy="175.5" rx="175" ry="175.5" transform="translate(21 23)" fill="#f48ca4"/>
+    <circle id="Elipse_13" data-name="Elipse 13" cx="286" cy="286" r="286" transform="translate(-90 -83)" fill="#f48ca4"/>
+    <circle id="Elipse_12" data-name="Elipse 12" cx="249" cy="249" r="249" transform="translate(-53 -46)" fill="#f1666d"/>
+    <circle id="Elipse_11" data-name="Elipse 11" cx="225" cy="225" r="225" transform="translate(-29 -22)" fill="#f48ca4"/>
+    <circle id="Elipse_10" data-name="Elipse 10" cx="200" cy="200" r="200" transform="translate(-4 1)" fill="#f1666d"/>
+    <circle id="Elipse_9" data-name="Elipse 9" cx="180" cy="180" r="180" transform="translate(16 21)" fill="#f48ca4"/>
+    <circle id="Elipse_8" data-name="Elipse 8" cx="159" cy="159" r="159" transform="translate(37 42)" fill="#f1666d"/>
+    <circle id="Elipse_7" data-name="Elipse 7" cx="137" cy="137" r="137" transform="translate(59 64)" fill="#f48ca4"/>
+    <circle id="Elipse_5" data-name="Elipse 5" cx="122" cy="122" r="122" transform="translate(74 81)" fill="#f1666d"/>
+    <circle id="Elipse_6" data-name="Elipse 6" cx="110" cy="110" r="110" transform="translate(86 93)" fill="#f48ca4"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="98" cy="98" r="98" transform="translate(98 104)" fill="#f1666d"/>
+    <circle id="Elipse_4" data-name="Elipse 4" cx="88" cy="88" r="88" transform="translate(108 114)" fill="#f48ca4"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="78" cy="78" r="78" transform="translate(118 124)" fill="#f1666d"/>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="67" cy="67" r="67" transform="translate(129 135)" fill="#f48ca4"/>
+  </g>
+</svg>

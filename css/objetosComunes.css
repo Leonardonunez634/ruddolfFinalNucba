@@ -1,0 +1,187 @@
+
+/*Reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--colorBlanco);
+    list-style: none;
+    border: none;
+}
+/*Variables*/
+:root{
+   --colorRojoPrimario : #9C0720; 
+   --colorRojoSecundario : #D81D3A;
+   --colorSecundario : #F6D62F;
+   --colorRosaPrimario : #F48CA4; 
+   --colorRosaSecundario : #F1666D;
+   --colorFondoClaro : #CEBDA9; 
+   --colorFondoOscuro : #95806B; 
+   --colorBlanco: #FFF0F0;
+}
+/*---- Tipografia ----*/
+@font-face{
+    font-family: 'JandaManatee';
+    src: url('/tipografia/janda_manatee/JandaManateeSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'SimpleSans';
+    src: url('/tipografia/simply_sans/SimplySans-Book.ttf') format('truetype'),
+    url('/tipografia/simply_sans/SimplySans-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------- Clases globales -------*/
+h1,h2,h3,h4{
+    font-family: "JandaManatee" , sans-serif;
+}
+ul,li,p,button,a{
+    font-family: "SimpleSans" , sans-serif;
+}
+.btnPrincipal{
+    background-color: var(--colorRojoPrimario);
+    color: var(--colorSecundario);
+    padding:10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.btnPrincipal2{
+    background-color: var(--colorSecundario);
+    color: var(--colorRojoPrimario);
+    padding:10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.btnSecundario{
+    border:var(--colorSecundario) solid 3px;
+    color: var(--colorSecundario);
+    padding:10px 20px;
+    border-radius: 50px;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.seccion{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+/* ------ Nav --------*/
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--colorRojoPrimario);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+}
+.nav__logo{
+    width: 80px;
+}
+.nav__lista{
+    display: none;
+}
+.nav__listaBurger{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 0%;
+    height: 100vh;
+    background-color: #F48CA4;
+    top: 0;
+    right: -8vw;
+    z-index: 1000 ;
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}
+.nav__listaBurger--elementoLista{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav__btn--mensajeWpp{
+    display: none;
+}
+.nav__btn--carritoDeCompras{
+    display: none;
+}
+
+/* Boton animado */
+.nav__btn--contenedorBurguer{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2000;
+}
+.nav__btn--Menu{
+    width: 45px;
+    height: 5px;
+    background-color: #F6D62F;
+    position: absolute;
+    pointer-events: none;
+    transition: .3s all ease-in-out;
+    z-index: 3000;
+}
+.nav__btn--Menu::after,
+.nav__btn--Menu::before{
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 5px;
+    background-color: #F6D62F;
+    transition: .3s all ease-in-out;
+}
+.nav__btn--Menu::after{
+    top: -15px;
+}
+.nav__btn--Menu::before{
+    bottom: -15px;
+}
+.nav__btn--checkbox{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    opacity: 0;
+    z-index: 3000;
+}
+.nav__btn--checkbox:checked ~ .nav__btn--Menu{
+    transform: rotate(45deg);
+}
+.nav__btn--checkbox:checked ~ .nav__btn--Menu::before{
+    transform: rotate(-90deg) translateX(15px);
+}
+.nav__btn--checkbox:checked ~ .nav__btn--Menu::after{
+    opacity: 0;
+}
+.nav__btn--checkbox:checked ~ .nav__listaBurger{
+    width: 100vw;
+} 

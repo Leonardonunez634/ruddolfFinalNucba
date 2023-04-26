@@ -1,0 +1,90 @@
+html{
+    font-size: 25px;
+}
+.seccionIniciarSesion{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    gap: 3vh;
+}
+.seccionIniciarSesion__formularioInicio{
+    display:grid;
+    width: 90%;
+    grid-template-areas: 
+    "titu titu"/*Titulo*/
+    "lblN lblN"/*label nombre*/
+    "inpN inpN"/*input nombre*/
+    "lblC lblC"/*label contraseña*/
+    "inpC inpC"/*input contraseña*/
+    "btnE btnE"/*boton enviar*/
+    ;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 10vh repeat(5 , 7vh);
+    gap: 3vh;
+    margin-top: 5vh;
+    z-index: 600;
+    padding: 5vh 5vw;
+    background-color: #f1666dbe;
+    border-radius: 30px;
+    max-width: 400px;
+}
+.seccionIniciarSesion__formularioInicio--titulo{
+    grid-area: titu;
+}
+.seccionIniciarSesion__formularioInicio--titulo span{
+    color: var(--colorSecundario);
+}
+.seccionIniciarSesion__formularioInicio--labelUsuario{
+    grid-area: lblN;
+    align-self: self-end;
+}
+.seccionIniciarSesion__formularioInicio--inputUsuario{
+    grid-area: inpN;
+    height: 40px;
+    align-self: self-start;
+    border-radius: 15px;
+    max-width: 340px;
+}
+.seccionIniciarSesion__formularioInicio--labelContraseña{
+    grid-area: lblC;
+    align-self: self-end;
+}
+.seccionIniciarSesion__formularioInicio--inputContraseña{
+    grid-area: inpC;
+    height: 40px;
+    align-self: self-start;
+    border-radius: 15px;
+    max-width: 340px;
+}
+.seccionIniciarSesion__formularioInicio--btnIniciarSesion{
+    grid-area: btnE;
+    justify-self: center;
+}
+
+.seccionIniciarSesion__contImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    filter: grayscale(40%);
+}
+.seccionIniciarSesion__contenedorRegistro{
+    z-index: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccionIniciarSesion__contenedorRegistro--texto{
+    color: #fdd300;
+}
+.seccionIniciarSesion__contenedorRegistro--linkRegistro{
+    text-decoration: none;
+    color: #ff002b;
+    font-weight: 900
+}

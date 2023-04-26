@@ -1,0 +1,568 @@
+/*------ Menu Principal -------*/
+.bannerInicio{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1.5fr 5fr repeat(2 , 2fr);
+    gap: 20px;
+    background-color: #F1666D;
+    position: relative;
+    z-index: 100;
+}
+
+.bannerInicio__tituloSeccion{
+    justify-self: center;
+    align-self: self-end;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 500;
+    letter-spacing: 2px;
+}
+.bannerInicio__contenedorImagen{
+    justify-self: center;
+    align-self: center;
+    transform: rotate(10deg);
+    z-index: 500;
+}
+.bannerInicio__listaCategoriasProductos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    z-index: 500;
+}
+.listaCategoriasProductos__Categoria{
+    border: 1px solid var(--colorSecundario);
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    z-index: 500;
+}
+.listaCategoriasProductos__Categoria::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: var(--colorRosaSecundario);
+    border-radius: 50%;
+    border:1px solid var(--colorSecundario);
+    position: absolute;
+    left: -20px;
+    top: -12px;
+}
+.bannerInicio__btnVerMenu{
+    justify-self: center;
+    align-self: center;
+    padding: 10px 20px;
+    z-index: 500;
+}
+/*Fondo*/
+.bannerInicio__fondoSeccion{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.bannerInicio__fondoSeccion--svgFondo{
+    position: relative;
+    top: -13vh;
+    width: 700vw;
+}
+/*SHAPE DIVIDER*/
+.custom-shape-divider-bottom-1676331231 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1676331231 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 20px;
+}
+
+.custom-shape-divider-bottom-1676331231 .shape-fill {
+    fill: var(--colorFondoClaro);
+}
+#dividerPedidos .shape-fill{
+    fill: var(--colorFondoOscuro);
+} 
+#dividerFooter .shape-fill{
+    fill: var(--colorRojoPrimario);
+}
+/*------ Seccion Productos------*/
+.seccionProductosMasPedidos{
+    /*grid-template-areas: ;*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5vh 0;
+    background-color: var(--colorFondoClaro);
+    position: relative;
+    z-index: 100;
+}
+.contenedorTexto_P-P__Titulo span{
+    color: var(--colorRojoSecundario);
+}
+.contenedorTexto_P-P__texto{
+    text-align: center;
+}
+.seccionProductosMasPedidos__Imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 44vh;
+    position: relative;
+    z-index: 400;
+}
+.seccionProductosMasPedidos__Imagenes--img{
+    width: 250px;
+    z-index: 400;
+    position: absolute;
+}
+.seccionProductosMasPedidos__Imagenes--img:not(:first-child){
+    display: none;
+}
+.SeccionProductosMasPedidos__menuImg{
+    display: flex;
+    gap: 10px;
+    z-index: 400;
+}
+.SeccionProductosMasPedidos__menuImg > .desactivado > *{
+    fill : #C7A700;
+}
+.seccionProductosMasPedidos__informacionProducto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+    z-index: 400;
+    text-align: center;
+}
+.seccionProductosMasPedidos__informacionProducto--nombre{
+    font-size: 2rem;
+    text-align: center;
+}
+.seccionProductosMasPedidos__informacionProducto--contBotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.seccionProductosMasPedidos__informacionProducto--btn{
+    width: 220px;
+}
+.seccionProductosMasPedidos__informacionProducto{
+    font-size: 1.2rem;
+}
+.seccionProductosMasPedidos__contenendorFondoImg{
+    position: absolute;
+    z-index: 200;
+    top: 16%;
+}
+.seccionProductosMasPedidos__informacionProducto--caracteristicas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.seccionProductosMasPedidos__decoracion{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.deco__circulosDerecha{
+    width: 75px;
+    position: absolute;
+    top: 45vh;
+    left: -1vw;
+}
+.deco__circulosIzquierda{
+    width: 75px;
+    position: absolute;
+    bottom: 20vh;
+    right: 0;
+}
+.deco__imgFactura{
+    width: 75px;
+    position: absolute;
+    top: 25vh;
+    right: 2vw;
+}
+.deco__imgWaffle{
+    width: 75px;
+    position: absolute;
+    bottom: 10vh;
+    left: -3vw;
+    transform: rotate(-20deg);
+}
+/*-------- Seccion Donde pedir rudolf -------*/
+.seccionPedidosRudolf{
+    width: 100%;
+    padding: 5vh 0;
+    background-color: var(--colorFondoClaro);
+    position: relative;
+    height: fit-content;
+}
+.seccionPedidosRudolf__titulo{
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.seccionPedidosRudolf__titulo span{
+    color: var(--colorRojoSecundario);
+}
+.contenedorCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px; 
+    margin-top: 15px;
+}
+.contenedorCards__card{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 270px;
+    gap: 20px;
+    height: max-content;
+    background-color: var(--colorFondoOscuro);
+    padding: 20px 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 4px 1px #00000094;
+}
+.contenedorCards__card--imgCarta{
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.contenedorCards__card--tituloCard{
+    color:var(--colorSecundario);
+    font-size: 1.8rem;
+    text-align: center;
+}
+.contenedorCards__card--textoCard{
+    text-align: center;
+    color: var(--colorBlanco);
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 28px;
+}
+/*-------- Seccion Opiniones -------*/
+.seccionOpiniones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5vh 0;
+    gap: 50px;
+    background-color: var(--colorFondoOscuro);
+}
+.seccionOpiniones__TituloSeccion{
+    color: var(--colorBlanco);
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    max-width: 90%;
+    text-align: center;
+}
+.seccionOpiniones__opinion{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--colorBlanco);
+    width: 80%;
+}
+.seccionOpiniones__contenedorPersonaOpinion{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.seccionOpiniones__contenedorPersonaOpinion--imagenPersona{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.seccionOpiniones__contenedorPersonaOpinion--nombrePersona{
+    color: var(--colorBlanco);
+    font-size: 1.3rem;
+    text-align: center;
+    width: 80%;
+}
+.seccionOpiniones__contenedorFlechas{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-between;
+    top: 30%;
+}
+.seccionOpiniones__contenedorFlechas>*{
+    width: 50px;
+}
+.contenedorFlechas__flecha--izquierda{
+    transform: rotate(180deg);
+}
+/* ----------- Seccion Quienes Somos------*/
+.seccionQuienesSomos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vh 0;
+    align-items: center;
+    background-color: var(--colorFondoOscuro);
+    padding-bottom: 10vh;
+    position: relative;
+    gap: 5vh;
+}
+.seccionQuienesSomos__TituloSeccion{
+    letter-spacing: 2px;
+    max-width: 90%;
+    text-align: center;
+}
+.seccionQuienesSomos__separador{
+    width: 30vw;
+    height: 4px;
+    transform: translateY(-3vh);
+}
+.seccionQuienesSomos__separador>line{
+    stroke-width: 10;
+}
+.contenedorInfoSeccionQuienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.contenedorInfoSeccionQuienesSomos__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+}
+.contenedorInfoSeccionQuienesSomos__texto{
+    width: 80%;
+    text-align: center;
+    color: var(--colorBlanco);
+}
+.seccionQuienesSomos__deco{
+    position: absolute;
+    width: 60px;
+}
+#seccionQuienesSomos__deco--helado{
+    top: 0;
+    left: 5vw;
+    transform: rotate(-45deg);
+}
+#seccionQuienesSomos__deco--galletita{
+    bottom: 10vh;
+    right: -3vw;
+    transform: rotate(45deg);
+}
+/*---------  Donde encontrarnos ------------*/
+.seccionDondeEncontrarnos{
+    overflow: hidden;
+    width: 100%;
+    padding: 55vh 0 5vh 0;
+    position: relative;
+    background-color: var(--colorFondoOscuro);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+/*Titulo*/
+.seccionDondeEncontrarnos__contenedorTitulo{
+    background-color: var(--colorRojoPrimario);
+    transform: rotate(13deg) translate(-20vw , 100px);
+    width: 200%;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8vh;
+    left: -22vw;
+}
+.seccionDondeEncontrarnos__contenedorTitulo--tituloSeccion{
+    color: var(--colorSecundario);
+    font-size: 1.8rem;
+}
+.contenedorTitulo__contenedorPies--arriba,
+.contenedorTitulo__contenedorPies--abajo{
+    position: absolute;
+    background-color: var(--colorRojoPrimario);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contenedorTitulo__contenedorPies--arriba{
+    top:-20%
+}
+.contenedorTitulo__contenedorPies--abajo{
+    bottom: -20%;
+}
+.contenedorPies--arriba__img , 
+.contenedorPies--abajo__img{
+    width: 100%;
+    height: 100%;
+}
+.contenedorPies--arriba__img{
+    background-image: url(/Img/iconos/PisadasArriba.svg);
+}
+.contenedorPies--abajo__img{
+    background-image: url(/Img/iconos/PisadasAbajo.svg);
+}
+/*Resto del contenido*/
+.seccionDondeEncontrarnos__contenedorCards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+.contenedorCards__cartaUbicacion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 450px;
+    position: relative;
+    border-radius: 25px;
+    z-index: 200;
+    overflow: hidden;
+    padding: 1vh 5vw;
+}
+.cartaUbicacion__Img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    z-index: 400;
+}
+.cartaUbicacion__blurEf{
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    background-color: #9c072093;
+    z-index: 205;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+}
+.cartaUbicacion__blurEfimg{
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    background-image: url(/Img/img/Direccion.jpg);
+    object-fit: cover;
+    filter: blur(3px);
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+}
+.cartaUbicacion__direccion{
+    color: var(--colorSecundario);
+    z-index: 240;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    align-self: flex-start;
+}
+.cartaUbicacion__dias{
+    color: var(--colorSecundario);
+    z-index: 240;
+    font-size: 1.4rem;
+    font-weight: 500;
+    align-self: flex-start;
+}
+.cartaUbicacion__horario{
+    color: var(--colorSecundario);
+    z-index: 240;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    align-self: flex-start;
+}
+/* -- Footer ---*/
+.footer{
+    background-color: var(--colorRojoPrimario);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.footer_logosRedes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.footer_logosRedes--redFacebook,
+.footer_logosRedes--redInstagram{
+    width: 75px;
+}
+.footer__img{
+    width: 50px;
+    position: absolute;
+}
+#footer__img--dona{
+    top: 0;
+    left: 5vw;
+    transform: rotate(-45deg);
+}
+#footer__img--helado{
+    top: 5vh;
+    right: 5vw;
+    transform: rotate(45deg);       
+}
+#footer__img--galletita{
+    bottom: 5vh;
+    left: 5vw;
+    transform: rotate(15deg); 
+}
+#footer__img--factura{
+    bottom: 5vh;
+    right: 5vw;
+    transform: rotate(55deg); 
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.414" height="71.414" viewBox="0 0 36.414 71.414">
+  <g id="flechaDer" transform="translate(0.707 0.707)">
+    <line id="Línea_1" data-name="Línea 1" x1="35" y2="35" transform="translate(0 35)" fill="none" stroke="#0d0d0d" stroke-linecap="round" stroke-width="1"/>
+    <line id="Línea_2" data-name="Línea 2" x1="35" y1="35" fill="none" stroke="#0d0d0d" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

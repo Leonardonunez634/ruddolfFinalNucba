@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/objetosComunes.css">
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="/css/queryes.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/index.html"><img src="/Img/img/logoRuddolf-removebg-preview.png" alt="LogoRudolf" class="nav__logo"></a>
+            <ul class="nav__lista">
+                <li class="nav__lista--elementoLista"><a href="">Quienes somos</a></li>
+                <li class="nav__lista--elementoLista"><a href="">Donde encontrarnos</a></li>
+                <li class="nav__lista--elementoLista"><a href="">Menu</a></li>
+                <li class="nav__lista--elementoLista"><a href="/html/iniciarSesion.html">Ingresar</a></li>
+            </ul>
+            <a href=""><img class="nav__btn--mensajeWpp" src="/Img/iconos/IconosFinales/whatsapp-icono.svg" alt="Contactarse por WhatsApp"></a>
+            <a href=""><img class="nav__btn--carritoDeCompras" src="/Img/iconos/IconosFinales/cestaSVG.svg" alt="Carrito de compras"></a>
+            <a href=""><img class="nav__btn--Menu" src="/Img/iconos/menu-button.svg" alt="Menu"></a>
+        </nav>
+    </header>
+    <main>
+        <section class="seccionRegistro">  
+            <img src="/Img/img/ImagenIniciarSesion.jpg" alt="" class="seccionRegistro__contImg">
+            <form action="" class="seccionRegistro__formularioInicio">
+                <h1 class="seccionRegistro__formularioInicio--titulo">Registro</h1>
+                <label for="inputUsuario" class="seccionRegistro__formularioInicio--labelUsuario">Nombre de usuario</label>
+                <input class="seccionRegistro__formularioInicio--inputUsuario" id="inputUsuario"></input>
+                <label for="inputContraseña" class="seccionRegistro__formularioInicio--labelContraseña">Crea tu contraseña</label>
+                <input class="seccionRegistro__formularioInicio--inputContraseña" id="inputContraseña"></input>
+                <label for="inputContraseñaConfir" class="seccionRegistro__formularioInicio--labelContraseñaConfirm">Ingresa de nuevo tu contraseña</label>
+                <input class="seccionRegistro__formularioInicio--inputContraseñaConfirm" id="inputContraseñaConfir"></input>
+                <div class="seccionRegistro__formularioInicio--contenedorTerminosYCondiciones">
+                    <label for="checkboxTerminosYCondiciones" class="seccionRegistro__formularioInicio--labelTerminosYCondiciones">Leí y acepto los terminos y condiciones</label>
+                    <input type="checkbox" class="seccionRegistro__formularioInicio--" id="checkboxTerminosYCondiciones"></input>     
+                </div>
+                <button class="btnPrincipal seccionRegistro__formularioInicio--btnIniciarSesion ">Registrarme</button>
+            </form>
+            <div class="seccionRegistro__contenedorInicioSesion">
+                <p class="seccionRegistro__contenedorRegistro--texto">¿Ya te registraste?</p>
+                <a href="/html/iniciarSesion.html" class="seccionRegistro__contenedorRegistro--linkRegistro">Iniciar sesion</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

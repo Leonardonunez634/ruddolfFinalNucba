@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3196" height="3197" viewBox="0 0 3196 3197">
+  <g id="Fondo" transform="translate(1077.114 1077.898)">
+    <g id="ElipcesDeColores" transform="translate(-557 -558)">
+      <ellipse id="Elipse_28" data-name="Elipse 28" cx="1598" cy="1598.5" rx="1598" ry="1598.5" transform="translate(-520.114 -519.898)" fill="#f1666d"/>
+      <ellipse id="Elipse_29" data-name="Elipse 29" cx="1436" cy="1436.5" rx="1436" ry="1436.5" transform="translate(-358.114 -357.898)" fill="#f48ca4"/>
+      <ellipse id="Elipse_26" data-name="Elipse 26" cx="1304" cy="1304.5" rx="1304" ry="1304.5" transform="translate(-226.114 -225.898)" fill="#f1666d"/>
+      <ellipse id="Elipse_27" data-name="Elipse 27" cx="1172" cy="1172.5" rx="1172" ry="1172.5" transform="translate(-94.114 -93.898)" fill="#f48ca4"/>
+      <ellipse id="Elipse_24" data-name="Elipse 24" cx="1078" cy="1078.5" rx="1078" ry="1078.5" transform="translate(-0.114 0.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_25" data-name="Elipse 25" cx="969" cy="969.5" rx="969" ry="969.5" transform="translate(108.886 109.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_22" data-name="Elipse 22" cx="875" cy="875.5" rx="875" ry="875.5" transform="translate(202.886 203.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_23" data-name="Elipse 23" cx="787" cy="788.5" rx="787" ry="788.5" transform="translate(290.886 290.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_21" data-name="Elipse 21" cx="727" cy="727.5" rx="727" ry="727.5" transform="translate(350.886 351.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_20" data-name="Elipse 20" cx="654" cy="654.5" rx="654" ry="654.5" transform="translate(423.886 424.102)" fill="#f48ca4"/>
+      <path id="Trazado_3" data-name="Trazado 3" d="M599.78,0c331.249,0,599.78,268.531,599.78,599.78s-268.531,599.78-599.78,599.78S0,931.029,0,599.78,268.531,0,599.78,0Z" transform="translate(478.106 488.127)" fill="#f1666d"/>
+      <ellipse id="Elipse_18" data-name="Elipse 18" cx="535" cy="535.5" rx="535" ry="535.5" transform="translate(542.886 552.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_17" data-name="Elipse 17" cx="482" cy="482.5" rx="482" ry="482.5" transform="translate(595.886 601.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_16" data-name="Elipse 16" cx="402" cy="402.5" rx="402" ry="402.5" transform="translate(675.886 681.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_15" data-name="Elipse 15" cx="355" cy="356.5" rx="355" ry="356.5" transform="translate(722.886 727.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_14" data-name="Elipse 14" cx="305" cy="306.5" rx="305" ry="306.5" transform="translate(772.886 777.102)" fill="#f48ca4"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M439.457,0C682.162,0,878.914,197.072,878.914,440.173S682.162,880.346,439.457,880.346,0,683.273,0,440.173,196.752,0,439.457,0Z" transform="translate(638.429 651.313)" fill="#f48ca4"/>
+      <path id="Trazado_1" data-name="Trazado 1" d="M393.716,0C611.16,0,787.433,176.564,787.433,394.366S611.16,788.732,393.716,788.732,0,612.169,0,394.366,176.273,0,393.716,0Z" transform="translate(684.17 697.119)" fill="#f1666d"/>
+      <circle id="Elipse_11" data-name="Elipse 11" cx="355" cy="355" r="355" transform="translate(722.886 737.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_10" data-name="Elipse 10" cx="328" cy="327.5" rx="328" ry="327.5" transform="translate(749.886 761.102)" fill="#f1666d"/>
+      <ellipse id="Elipse_9" data-name="Elipse 9" cx="293" cy="293.5" rx="293" ry="293.5" transform="translate(784.886 794.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_8" data-name="Elipse 8" cx="263" cy="262.5" rx="263" ry="262.5" transform="translate(814.886 826.102)" fill="#f1666d"/>
+      <circle id="Elipse_7" data-name="Elipse 7" cx="239" cy="239" r="239" transform="translate(838.886 849.102)" fill="#f48ca4"/>
+      <ellipse id="Elipse_5" data-name="Elipse 5" cx="213" cy="212.5" rx="213" ry="212.5" transform="translate(864.886 879.102)" fill="#f1666d"/>
+      <circle id="Elipse_6" data-name="Elipse 6" cx="192" cy="192" r="192" transform="translate(885.886 900.102)" fill="#f48ca4"/>
+    </g>
+    <g id="Centro" transform="translate(350.543 360.995)">
+      <circle id="ElipceRojo" cx="171.5" cy="171.5" r="171.5" transform="translate(0.343 0.107)" fill="#9c0720"/>
+      <ellipse id="ElipseAmarillo" cx="135.5" cy="141.5" rx="135.5" ry="141.5" transform="translate(35.343 30.107)" fill="#f6d62f"/>
+    </g>
+  </g>
+</svg>

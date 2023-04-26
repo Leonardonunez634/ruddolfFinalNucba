@@ -1,0 +1,390 @@
+/*tablets*/
+@media (min-width : 678px) {
+     /*----- INDEX ---------*/
+    body {
+        font-size: 25px;
+    }
+
+    .bannerInicio {
+        grid-template-areas:
+            "titu titu titu"
+            "list list img"
+            "list list img"
+            ". btn .";
+        grid-template-rows: 1.5fr repeat(2, 5fr) 150px;
+        grid-template-columns: repeat(2, 25vw) 50vw;
+    }
+
+    .bannerInicio__tituloSeccion {
+        grid-area: titu;
+    }
+
+    .bannerInicio__fondoSeccion--svgFondo {
+        top: -4vh;
+        left: 28vw;
+    }
+
+    .bannerInicio__contenedorImagen {
+        grid-area: img;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .contenedorImagen__imagenBanner {
+        width: 30vw;
+        max-width: 250px;
+    }
+
+    .bannerInicio__listaCategoriasProductos {
+        grid-area: list;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .listaCategoriasProductos__Categoria {
+        width: 200px;
+        height: 40px;
+    }
+
+    .listaCategoriasProductos__Categoria::before {
+        left: -2vh;
+        top: -1vh;
+    }
+
+    .bannerInicio__btnVerMenu {
+        grid-area: btn;
+        width: max-content;
+        height: 75px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        justify-self: self-start;
+    }
+
+    .seccionProductosMasPedidos__contenendorFondoImg {
+        top: 20vh;
+    }
+
+    .seccionProductosMasPedidos__contenendorFondoImg>* {
+        width: 50vh
+    }
+
+    .seccionProductosMasPedidos__Imagenes {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 50vh;
+        overflow: hidden;
+        top: 2vh;
+    }
+
+    .seccionProductosMasPedidos__Imagenes--img {
+        position: relative;
+        transform: translateX(-160px);
+    }
+
+    .seccionProductosMasPedidos__Imagenes--img:not(:first-child) {
+        display: block;
+    }
+
+    .seccionProductosMasPedidos__informacionProducto--contBotones {
+        flex-direction: row;
+    }
+
+    .seccionProductosMasPedidos__informacionProducto--btn {
+        width: 300px;
+        height: 50px;
+    }
+
+    .contenedorCards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenedorCards__card {
+        width: 43vw;
+        max-width: 300px;
+        height: 58vh;
+        max-height: 400px;
+    }
+
+    .seccionOpiniones__TituloSeccion {
+        font-size: 2.8rem;
+    }
+
+    .seccionOpiniones__opinion {
+        font-size: 1.8rem;
+    }
+
+    .seccionDondeEncontrarnos__contenedorCards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenedorCards__cartaUbicacion {
+        justify-content: space-between;
+        padding: 1vh 5vw;
+        width: 40vw;
+        height: 60vh;
+        max-width: 300px;
+        max-height: 455px;
+    }
+    /*----- INICIAR SESION ---------*/
+}
+
+@media(min-width : 1024px) {
+    /*----- INDEX ---------*/
+    
+    .nav__btn--checkbox{
+        display: none;
+    }
+    .nav__lista {
+        display: flex;
+        gap: 5vw;
+        justify-self: flex-end;
+    }
+
+    .nav__btn--Menu {
+        display: none;
+    }
+
+    .nav__btn--mensajeWpp {
+        display: block;
+        width: 60px;
+    }
+
+    .nav__btn--carritoDeCompras {
+        display: block;
+        width: 60px;
+    }
+
+    .bannerInicio {
+        grid-template-rows: 2fr repeat(2, 5fr) 150px;
+        grid-template-columns: repeat(3, 32vw);
+    }
+
+    .bannerInicio__tituloSeccion {
+        font-size: 3rem;
+    }
+
+    .bannerInicio__contenedorImagen {
+        justify-self: start;
+    }
+
+    .bannerInicio__fondoSeccion--svgFondo {
+        left: 25vw;
+    }
+
+    .listaCategoriasProductos__Categoria {
+        width: 20vw;
+        height: 7vh;
+        max-width: 300px;
+        max-height: 70px;
+        font-size: 2.2rem;
+    }
+
+    .listaCategoriasProductos__Categoria::before {
+        width: 10vh;
+        height: 10vh;
+        max-width: 100px;
+        max-height: 100px;
+        left: -5vh;
+        top: -2vh;
+    }
+
+    .bannerInicio__btnVerMenu {
+        height: 80px;
+        padding: 20px 30px;
+        font-size: 2rem;
+        justify-self: center;
+    }
+
+    .contenedorTexto_P-P{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedorTexto_P-P__Titulo{
+        font-size: 3.5rem;
+    }
+    .contenedorTexto_P-P__texto{
+        font-size: 2.5rem;
+    }
+    .seccionProductosMasPedidos__Imagenes{
+        height: 50vh;
+        max-height: 650px;
+    }
+    .seccionProductosMasPedidos__contenendorFondoImg{
+        top: 25vh;
+    }
+    .seccionProductosMasPedidos__informacionProducto{
+        display: grid;
+        grid-template-areas:
+        "titu carc"
+        "prec carc"
+        "btn btn";
+        grid-template-columns: max-content 300px;
+        height: 45vh;
+    }
+    .seccionProductosMasPedidos__informacionProducto--nombre{
+        grid-area: titu;
+        font-size: 3.2rem;
+    }
+    .seccionProductosMasPedidos__informacionProducto--precio{
+        grid-area: prec;
+        font-size: 2.8rem;
+    }
+    .seccionProductosMasPedidos__informacionProducto--caracteristicas{
+        grid-area: carc;
+        font-size: 1.8rem;
+    }
+    .seccionProductosMasPedidos__informacionProducto--contBotones{
+        grid-area: btn;
+    }
+    .seccionProductosMasPedidos__informacionProducto--btn{
+        height: 75px;
+        font-size: 2rem;
+        width: max-content;
+        font-weight: 600;
+    }
+    .seccionProductosMasPedidos__decoracion>*{
+        width: 150px;
+    }
+    .seccionPedidosRudolf__titulo{
+        font-size: 3.5rem;
+    }
+    .contenedorCards{
+        margin: 7vh;
+    }
+    .contenedorCards__card{
+        max-width: 380px;
+        max-height: 550px;
+    }
+    .contenedorCards__card--imgCarta{
+        height: 220px;
+    }
+    .contenedorCards__card--tituloCard{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .contenedorCards__card--textoCard{
+        font-size: 1.5rem;
+    }
+    .conteneodorCards__card--brnCarta{
+        width: max-content;
+        font-weight: 600;
+    }
+    .seccionOpiniones__TituloSeccion{
+        color:var(--colorSecundario);
+        font-size: 3rem;
+    }
+    .seccionOpiniones__contenedorFlechas{
+        width: 62vw;
+    }
+    .seccionOpiniones__contenedorFlechas >*{
+        width: 85px;
+    }
+    .seccionOpiniones__contenedorPersonaOpinion--imagenPersona{
+        width: 400px;
+        height: 400px;
+    }
+    .seccionOpiniones__opinion{
+        font-size: 2.5rem;
+        width: 40vw;
+    }
+    .seccionOpiniones__contenedorPersonaOpinion--nombrePersona{
+        font-size: 1.8rem;
+    }
+    .seccionQuienesSomos__TituloSeccion{
+        font-size: 4rem;
+    }
+    .contenedorInfoSeccionQuienesSomos__texto{
+        line-height: 5vh;
+        font-size: 1.8rem;
+    }
+    .seccionDondeEncontrarnos__contenedorTitulo{
+        transform: rotate(5deg) translate(-22vw , 100px);
+    }
+    .contenedorCards__cartaUbicacion{
+        height: 60vh;
+        max-width: 400px;
+        max-height: 600px;
+        justify-content: space-evenly;
+    }
+    .cartaUbicacion__direccion{
+        font-size: 2.8rem;
+    }
+    .cartaUbicacion__dias{
+        font-size: 2rem;
+    }
+    .cartaUbicacion__horario{
+        font-size: 2.3rem;
+    }
+    .footer__img{
+        width: 85px;
+    }
+    /*----- INICIAR SESION ---------*/
+    .seccionIniciarSesion{
+        display: grid;
+        grid-template-areas: 
+        "foto form"
+        "foto regi"
+        ;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: 3fr 1fr;
+        background-color: var(--colorRosaSecundario);
+    }
+    .seccionIniciarSesion__formularioInicio{
+        max-width: 600px;
+        width: 90%;
+    }
+    .seccionIniciarSesion__contImg{
+        position: relative;
+        grid-area: foto;
+    }
+    .seccionIniciarSesion__formularioInicio--inputUsuario,
+    .seccionIniciarSesion__formularioInicio--inputContraseña{
+        max-width: 500px;
+    }
+    .seccionIniciarSesion__formularioInicio{
+        grid-area: form;
+        background-color: transparent;
+        justify-self: center
+    }
+    .seccionIniciarSesion__contenedorRegistro{
+        grid-area: regi;
+    }
+    /*-------- REGISTRO ------------*/
+    .seccionRegistro{
+        display: grid;
+        grid-template-areas: 
+        "form foto"
+        "ini foto "
+        ;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: 4fr 1fr;
+        background-color: var(--colorRosaSecundario);
+        padding: 0;
+    }
+    .seccionRegistro__formularioInicio{
+        max-width: 600px;
+        width: 90%;
+    }
+    .seccionRegistro__contImg{
+        position: relative;
+        grid-area: foto;
+    }
+    .seccionRegistro__formularioInicio--inputUsuario,
+    .seccionRegistro__formularioInicio--inputContraseña,
+    .seccionRegistro__formularioInicio--inputContraseñaConfirm {
+        max-width: 500px;
+    }
+    .seccionRegistro__formularioInicio{
+        grid-area: form;
+        background-color: transparent;
+        justify-self: center
+    }
+    .seccionRegistro__contenedorInicioSesion{
+        grid-area: ini;
+    }
+}
